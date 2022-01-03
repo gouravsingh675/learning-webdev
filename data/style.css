@@ -32,7 +32,7 @@
      word-spacing: 50px;
      padding-top: 20px;
      font-size:4rem;
-     font-family: 'Tangerine', serif;
+     font-family: 'Staatliches', cursive;
     letter-spacing: 1rem;
     text-shadow:5px 8px 4px red;
  }
@@ -41,6 +41,26 @@
      font-family: 'Volkhov', serif ;
      letter-spacing: 1rem;
      text-align: center;
-     text-shadow:5px 8px 4px orange;
+     text-shadow:5px 8px 4px red;
  
  }
+ h3{
+    color:white;
+    font-weight: bold;
+    font-size:8rem;
+    font-family: 'Tangerine', serif;
+    letter-spacing: 1rem;
+    text-align: center;
+    text-shadow:5px 8px 4px red;
+
+}
+h4{
+    color:red;
+    font-weight: bold;
+    font-size:8rem;
+    font-family: 'Tangerine', serif;
+    letter-spacing: 1rem;
+    text-align: center;
+    text-shadow:5px 8px 4px red;
+
+}
