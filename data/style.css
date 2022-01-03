@@ -33,12 +33,14 @@
      padding-top: 20px;
      font-size:4rem;
      font-family: 'Tangerine', serif;
-     font-family: 'Tangerine', serif;
     letter-spacing: 1rem;
     text-shadow:5px 8px 4px red;
  }
  h1{
      font-size:4rem;
+     font-family: 'Volkhov', serif ;
+     letter-spacing: 4rem;
+     text-align: center;
      text-shadow:5px 8px 4px red;
  
  }
