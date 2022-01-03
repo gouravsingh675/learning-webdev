@@ -39,8 +39,8 @@
  h1{
      font-size:4rem;
      font-family: 'Volkhov', serif ;
-     letter-spacing: 4rem;
+     letter-spacing: 2rem;
      text-align: center;
-     text-shadow:5px 8px 4px red;
+     text-shadow:5px 8px 4px orange;
  
  }
