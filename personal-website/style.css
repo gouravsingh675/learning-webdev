@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 100vh;
+    /* left:2%; */
+    position:relative;
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  }     
+        .image_1{
+            /* margin-left: 2%; */
+            margin: 5px 100px;
+        }
+        h1{
+            color:rgb(170, 255, 0);
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+        }
+        p {
+            color:rgb(255, 0, 68);
+            font-size: 18px;
+            text-align: center;
+        }
+        .special {
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            color:rgb(170, 255, 0);
+            margin-left: 15px;
+        }
+        .special2 {
+            font-family:'Times New Roman', Times, serif;
+            color:black;
+            text-align: center;
+        }
+
+        .button {
+            background-color: #4CAF50; /* Green */
+             border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            /* margin-left: 1%; */
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .button:hover{
+            background-color: #090808;
+            color: rgb(83, 27, 27);
+        }
+        .button1 {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 3px 1px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .button1:hover{
+            background-color: #090808;
+            color: rgb(83, 27, 27);
+        } 
+        .space {
+            width: 202px;
+            height: auto;
+            display: inline-block;
+        }
+          
