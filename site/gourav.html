@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Gourav
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Simple website for fun</h1>
+    <script>
+    function myfun(){
+        document.getElementById('jdemo').style.fontSize="25px";
+        document.getElementById('jdemo').style.color="red";
+        document.getElementById('jdemo').style.backgroundColor="blue";
+    }
+    function changeimg(parameter){
+        var pic;
+        if(parameter==0){
+            pic="didi.png";
+        }
+        else if(parameter==1){
+            pic="ketki_1.jpeg";
+        }
+        else if(parameter==2){
+            pic='Mom.jpeg';
+        }
+        else{
+            pic='aunty.jpeg';
+        }
+        document.getElementById('myimg').src=pic;
+    }
+    </script>
+    <img id ="myimg" src="welcome.gif" width="530" height="505">
+    <br>
+        <button class="button" onclick="changeimg(0)">Akanksha</button>
+        <button class="button" onclick="changeimg(1)">Ketki</button>
+        <button class="button" onclick="changeimg(2)">Mom & Dad</button>
+        <button class="button" onclick="changeimg(3)">Aunty</button>
+    <br>
+    <span class="special"><i>click the above buttons to see something special :)</i></span>
+    <br />
+    <br />
+    <p>
+        <button class= "button1" onclick="myfun()"><ul><li><i>click here to see "How are you doing?"</i></li></ul></button>
+    </p>
+    <p class="special2" id="jdemo">I'm doing good ketki :) , i wish & hope you too would be doing great. Take care & Shine brighter✨</p>
+    
+
+</body>
+</html>

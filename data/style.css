@@ -1,0 +1,66 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ header{
+     width: 100%;
+     height: 100vh;
+     position:relative;
+     background-image: url('nature.jpg.jpg');
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position: center;
+ 
+ }
+ .main_bg{
+     width: 80%;
+     height: 100vh;
+     position:absolute;
+     left:10%;
+     background-color: transparent;
+ 
+ }
+ h1,h2{
+     color:white;
+     text-transform: uppercase;
+     font-weight: bold;
+ 
+ }
+ h2{
+     text-align: center;
+     word-spacing: 50px;
+     padding-top: 20px;
+     font-size:4rem;
+     font-family: 'Staatliches', cursive;
+    letter-spacing: 1rem;
+    text-shadow:5px 8px 4px red;
+ }
+ h1{
+     font-size:4rem;
+     font-family: 'Volkhov', serif ;
+     letter-spacing: 1rem;
+     text-align: center;
+     text-shadow:5px 8px 4px red;
+ 
+ }
+ h3{
+    color:white;
+    font-weight: bold;
+    font-size:8rem;
+    font-family: 'Tangerine', serif;
+    letter-spacing: 1rem;
+    text-align: center;
+    text-shadow:5px 8px 4px red;
+
+}
+h4{
+    color:red;
+    font-weight: bold;
+    font-size:9rem;
+    font-family: 'Tangerine', serif;
+    letter-spacing: 1rem;
+    text-align: center;
+    text-shadow:5px 8px 4px red;
+
+}
